@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IF:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox /IF:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\cmsis_boot /IF:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\cmsis /IF:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky /IF:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\cmsis_lib\include /IF:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\cmsis_lib">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="1486830be50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1486830be50">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1486830aeb0">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="1486830aeb0">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="1486830be50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1486830aeb0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1486830be50">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/IE:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky /IE:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\cmsis /IE:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\cmsis_boot /IE:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox /IE:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\cmsis_lib /IE:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\cmsis_lib\include">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="1486830be50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="148683087a0">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="148683087a0">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1486830be50">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1486830aeb0">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="148683083b8">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="1486830aeb0">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="1486830be50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1486830aeb0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="148683087a0">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="14868310888">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="1486830b298">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1486830be50">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Matias Tosetti\Desktop\TP1-Blinky\cmsis_lib\include /I..\..\..\..\..\Users\Matias Tosetti\Desktop\TP1-Blinky\cmsis /I..\..\..\..\..\Users\Matias Tosetti\Desktop\TP1-Blinky\cmsis_boot /I..\..\..\..\..\Users\Matias Tosetti\Desktop\TP1-Blinky\cmsis_lib /I..\..\..\..\..\Users\Matias Tosetti\Desktop\TP1-Blinky /I..\..\..\..\..\Users\Matias Tosetti\Desktop">
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1486830ae19">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="1486830ae28">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1486830ae28">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>
