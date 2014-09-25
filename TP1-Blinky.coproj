@@ -75,8 +75,8 @@
   </Components>
   <Files>
     <File name="cmsis_lib/source/stm32f4xx_gpio.c" path="cmsis_lib/source/stm32f4xx_gpio.c" type="1"/>
-    <File name="cmsis" path="" type="2"/>
     <File name="BDP/bsp.c" path="BSP/bsp.c" type="1"/>
+    <File name="cmsis" path="" type="2"/>
     <File name="cmsis_lib" path="" type="2"/>
     <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>

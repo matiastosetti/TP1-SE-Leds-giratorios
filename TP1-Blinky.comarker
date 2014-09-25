@@ -19,8 +19,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value=""/>
-<attrib name="org.eclipse.debug.core.enabled" value="true"/>
 <attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
+<attrib name="org.eclipse.debug.core.enabled" value="true"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="true" persistant="true" registered="true">
@@ -39,8 +39,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/TP1-Blinky/main.c"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="F:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\main.c"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="true"/>
+<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="false" persistant="true" registered="true">
@@ -59,27 +59,7 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/TP1-Blinky"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="F:/5 facu/Curso Sistemas Enbebidos/Programacion en c en coocox/TP1-Blinky/main.c"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="false"/>
-</marker>
-</breakpoint>
-<breakpoint enabled="true" persistant="true" registered="true">
-<resource path="/TP1-Blinky" type="4"/>
-<marker lineNumber="22" type="org.eclipse.cdt.debug.core.cLineBreakpointMarker">
-<attrib name="enabled" value="true"/>
-<attrib name="org.eclipse.cdt.debug.core.condition" value=""/>
-<attrib name="org.eclipse.debug.core.id" value="org.eclipse.cdt.debug.core"/>
-<attrib name="workingset_name" value=""/>
-<attrib name="org.eclipse.cdt.debug.core.installCount" value="0"/>
-<attrib name="type" value="org.eclipse.cdt.debug.core.cLineBreakpointMarker"/>
-<attrib name="persistant" value="true"/>
-<attrib name="org.eclipse.cdt.debug.core.breakpointType" value="0"/>
-<attrib name="workingset_id" value="org.eclipse.debug.ui.breakpointWorkingSet"/>
-<attrib name="message" value="Line breakpoint: main.c [line: 22]"/>
-<attrib name="registered" value="true"/>
-<attrib name="path" value="/TP1-Blinky"/>
-<attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="F:/5 facu/Curso Sistemas Enbebidos/Programacion en c en coocox/TP1-Blinky/main.c"/>
-<attrib name="org.eclipse.debug.core.enabled" value="true"/>
 <attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 </marker>
 </breakpoint>
@@ -99,8 +79,28 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/TP1-Blinky"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="F:/5 facu/Curso Sistemas Enbebidos/Programacion en c en coocox/TP1-Blinky/main.c"/>
-<attrib name="org.eclipse.debug.core.enabled" value="true"/>
 <attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
+<attrib name="org.eclipse.debug.core.enabled" value="true"/>
+</marker>
+</breakpoint>
+<breakpoint enabled="true" persistant="true" registered="true">
+<resource path="/TP1-Blinky" type="4"/>
+<marker lineNumber="22" type="org.eclipse.cdt.debug.core.cLineBreakpointMarker">
+<attrib name="enabled" value="true"/>
+<attrib name="org.eclipse.cdt.debug.core.condition" value=""/>
+<attrib name="org.eclipse.debug.core.id" value="org.eclipse.cdt.debug.core"/>
+<attrib name="workingset_name" value=""/>
+<attrib name="org.eclipse.cdt.debug.core.installCount" value="0"/>
+<attrib name="type" value="org.eclipse.cdt.debug.core.cLineBreakpointMarker"/>
+<attrib name="persistant" value="true"/>
+<attrib name="org.eclipse.cdt.debug.core.breakpointType" value="0"/>
+<attrib name="workingset_id" value="org.eclipse.debug.ui.breakpointWorkingSet"/>
+<attrib name="message" value="Line breakpoint: main.c [line: 22]"/>
+<attrib name="registered" value="true"/>
+<attrib name="path" value="/TP1-Blinky"/>
+<attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="F:/5 facu/Curso Sistemas Enbebidos/Programacion en c en coocox/TP1-Blinky/main.c"/>
+<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
+<attrib name="org.eclipse.debug.core.enabled" value="true"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="false" persistant="true" registered="true">
@@ -119,8 +119,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/TP1-Blinky/main.c"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="E:\5 facu\Curso Sistemas Enbebidos\Programacion en c en coocox\TP1-Blinky\main.c"/>
-<attrib name="org.eclipse.debug.core.enabled" value="false"/>
 <attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
+<attrib name="org.eclipse.debug.core.enabled" value="false"/>
 </marker>
 </breakpoint>
 <breakpoint enabled="true" persistant="true" registered="true">
@@ -139,8 +139,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/TP1-Blinky"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="F:/5 facu/Curso Sistemas Enbebidos/Programacion en c en coocox/TP1-Blinky/main.c"/>
-<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="true"/>
+<attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 </marker>
 </breakpoint>
 </breakpoints>
