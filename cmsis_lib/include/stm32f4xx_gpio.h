@@ -52,7 +52,12 @@
                                     ((PERIPH) == GPIOI))
                                                                 
 /** 
-  * @brief  GPIO Configuration Mode enumeration 
+  * @brief  GPIO Configuration Mode enumeration.
+  *
+  * Notar que se crean nombres de los diferentes modos en los que se puede configurar los pines y que no
+  * son más que máscaras (números en hexa) para afectar a bits individuales del registro. No se usan
+  * números mágicos (que serían los números en hexa directamente para definir el estado)
+  *  para que el código sea LEGIBLE para cualquiera.
   */   
 typedef enum
 { 
