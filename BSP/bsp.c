@@ -17,22 +17,22 @@ const int leds_port[4] = { GPIOD, GPIOD, GPIOD, GPIOD }; //Arrays. Conjunto de p
 														//que se pueden ir apuntando para ver su contenido.
 const int leds[4] = { LED_A, LED_R, LED_N, LED_V };
 
-int *puntero=&leds[0];
+//Declaración de Punteros. Apuntan en primera instancia a la dirección del primer array. Luego con el contador led se va recorriendo los elementos del array.
+
+int *punteroSeleccionLed=&leds[0];
+int *punteroSeleccionPuerto=&leds_port[0];
 
 //implementaciones de funciones
 
 void led_on(uint8_t led) {
-	GPIO_SetBits(leds_port[led], *(puntero+led)); //notar cambio de argumento del array leds_port.
-	//Notar lo siguiente: el nombre del puerto (GPIOD) como no es genérico, se genera un array
-	//previamente para poder seleccionar un puerto como se hizo con los pines. En este caso todos
-	//están en el puerto D.
+	GPIO_SetBits(*(punteroSeleccionPuerto+led), *(punteroSeleccionLed+led)); //función Setbits
+	//tiene como argumentos el contenido de la dirección donde apuntan los punteros + el contador led
+
 }
-
-
 
 void led_off(uint8_t led) {
-	GPIO_ResetBits(leds_port[led], leds[led]);
-}
+	GPIO_ResetBits(*(punteroSeleccionPuerto+led), *(punteroSeleccionLed+led));
+}//idem comentario anterior
 
 uint8_t sw_get_state(void) {
 
